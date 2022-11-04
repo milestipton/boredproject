@@ -1,13 +1,25 @@
 {% extends 'bored/layout.html' %}
 
 {% block body %}
-<div class="p-5 text-center bg-light">
-   <h1>Never Be Bored Again</h1>
-    <div class="card-body">
-        <p class="card-title"><strong>What you should do: </strong>{{ activity }}</p>
-        <p class="card-text"><strong>Type of category: </strong>{{ category }}</p>
-        <a href="/" class="btn btn-primary">Idea</a>
+<div style="text-align: center; margin: 140px;">
+   <h1 style="
+            font-size: 40px; 
+            text-align: center;
+            border: 1px solid black;
+            align-items: center;
+            width: 40%;
+            padding: 20px;
+            border-radius: 5px;
+            background: #000;
+            color: #fff;
+            margin-left: auto;
+            margin-right: auto;
+    ">Never Be Bored Again</h1>
+    <div class="card-body"> 
+        <p style="font-size: 20px;" class="card-title"><strong>Idea: </strong>{{ activity }}</p>
+        <p style="font-size: 20px;" class="card-text"><strong>Category: </strong>{{ category }}</p>
+        <a style="font-size: 18px;" href="/" class="btn btn-primary">Idea</a>
     </div>
-    <span><em>thought this api was cool and was bored so here you go</em></span>
+    <span style="text-align: center; font-size: 18px;"><em>bordem is a disease</em></span>
 </div>
 {% endblock %}
