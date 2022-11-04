@@ -1,0 +1,13 @@
+{% extends 'bored/layout.html' %}
+
+{% block body %}
+<div class="p-5 text-center bg-light">
+   <h1>Never Be Bored Again</h1>
+    <div class="card-body">
+        <p class="card-title"><strong>What you should do: </strong>{{ activity }}</p>
+        <p class="card-text"><strong>Type of category: </strong>{{ category }}</p>
+        <a href="/" class="btn btn-primary">Idea</a>
+    </div>
+    <span><em>thought this api was cool and was bored so here you go</em></span>
+</div>
+{% endblock %}
