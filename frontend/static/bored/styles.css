@@ -10,11 +10,11 @@ body {
 }
 
 h1 {
-    font-size: 40px; 
+    font-size: 45px; 
     text-align: center;
     border: 1px solid black;
     align-items: center;
-    width: 40%;
+    width: 45%;
     padding: 20px;
     border-radius: 5px;
     background: #000;
